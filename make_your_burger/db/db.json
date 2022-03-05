@@ -90,7 +90,7 @@
         "Bacon",
         "Salame"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 1
     },
     {
@@ -101,7 +101,7 @@
         "Bacon",
         "Salame"
       ],
-      "status": "Solicitado",
+      "status": "s.tipo",
       "id": 2
     },
     {
@@ -187,6 +187,14 @@
       ],
       "status": "Solicitado",
       "id": 11
+    },
+    {
+      "nome": "Jurandir",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [],
+      "status": "Solicitado",
+      "id": 12
     }
   ]
 }

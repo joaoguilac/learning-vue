@@ -24,9 +24,9 @@
           </ul>
         </div>
         <div>
-          <select name="status" class="status">
-            <option value="" :selected="true" :disabled="true">Selecione</option>
-            <option v-for="s in status" :key="s.id" value="s.tipo" :selected="burger.status == s.tipo">
+          <select name="status" class="status" @change="updateBurger($event, burger.id)">
+            <!-- <option value="" :selected="true" :disabled="true">Selecione</option> -->
+            <option v-for="s in status" :key="s.id" :value="s.tipo" :selected="burger.status == s.tipo">
               {{ s.tipo }}
             </option>
           </select>
@@ -71,9 +71,24 @@ export default {
       });
       const res = await req.json();
 
-      // msg
+      // fazer uma msg quando excluir o pedido
 
       this.getPedidos();
+    },
+    async updateBurger(event, id) {
+      const option = event.target.value;
+
+      const dataJson = JSON.stringify({ status: option });
+
+      const req = await fetch(`http://localhost:3000/burgers/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: dataJson
+      });
+
+      const res = await req.json();
+
+      console.log(res);
     }
   },
   mounted() {
