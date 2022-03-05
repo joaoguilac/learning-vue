@@ -105,17 +105,6 @@
       "id": 2
     },
     {
-      "nome": "DESIGN INSTRUCIONAL PARA TI",
-      "carne": "Alcatra",
-      "pao": "Pão Mexicano",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 3
-    },
-    {
       "nome": "João Guilherme Lopes Alves da Costa",
       "carne": "",
       "pao": "",
@@ -188,6 +177,16 @@
       ],
       "status": "Solicitado",
       "id": 10
+    },
+    {
+      "nome": "Joaquina",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 11
     }
   ]
 }
