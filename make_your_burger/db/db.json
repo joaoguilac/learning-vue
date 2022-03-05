@@ -84,117 +84,11 @@
   "burgers": [
     {
       "nome": "João Guilherme Lopes Alves da Costa",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "João Guilherme Lopes Alves da Costa",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "s.tipo",
-      "id": 2
-    },
-    {
-      "nome": "João Guilherme Lopes Alves da Costa",
-      "carne": "",
-      "pao": "",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "João Guilherme Lopes Alves da Costa",
-      "carne": "",
-      "pao": "",
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "DESIGN INSTRUCIONAL PARA TI",
-      "carne": "Picanha",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 6
-    },
-    {
-      "nome": "DESIGN INSTRUCIONAL PARA TI",
-      "carne": "Maminha",
-      "pao": "Integral",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado",
-      "id": 7
-    },
-    {
-      "nome": "Maria",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Cheddar",
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 8
-    },
-    {
-      "nome": "Joaquina",
-      "carne": "Veggie burger",
-      "pao": "Integral",
-      "opcionais": [
-        "Tomate"
-      ],
-      "status": "Solicitado",
-      "id": 9
-    },
-    {
-      "nome": "Paulo",
-      "carne": "Maminha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Cebola roxa",
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 10
-    },
-    {
-      "nome": "Joaquina",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-        "Salame"
-      ],
-      "status": "Solicitado",
-      "id": 11
-    },
-    {
-      "nome": "Jurandir",
       "carne": "Picanha",
       "pao": "3 Queijos",
       "opcionais": [],
-      "status": "Solicitado",
-      "id": 12
+      "status": "Finalizado",
+      "id": 1
     }
   ]
 }
