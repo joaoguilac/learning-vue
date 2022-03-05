@@ -10,7 +10,7 @@
         <div class="input-container">
           <label for="pao">Escolha o pão:</label>
           <select name="pao" id="pao" v-model="pao">
-            <option value="" disabled="true" selected="true">Selecione o seu pão</option>
+            <option value="" :selected="true" :disabled="true">Selecione o seu pão</option>
             <option v-for="pao in paes" :key="pao.id" :value="pao.tipo">
               {{ pao.tipo }}
             </option>
@@ -19,7 +19,7 @@
         <div class="input-container">
           <label for="carne">Escolha a carne do seu Burger:</label>
           <select name="carne" id="carne" v-model="carne">
-            <option value="">Selecione o tipo de carne</option>
+            <option value="" :selected="true" :disabled="true">Selecione o tipo de carne</option>
             <option v-for="carne in carnes" :key="carne.id" :value="carne.tipo">
               {{ carne.tipo }}
             </option>
@@ -54,8 +54,8 @@ export default {
       carnes: null,
       opcionaisdata: null,
       nome: null,
-      pao: null,
-      carne: null,
+      pao: "",
+      carne: "",
       opcionais: [],
       msg: null
     }
